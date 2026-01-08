@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.text.Font?>
+<Button xmlns="http://javafx.com/javafx"
+        xmlns:fx="http://javafx.com/fxml"
+        fx:controller="fr.geiffel.gsb.fxutils.PreviousButtonController"
+        fx:id="btn" layoutX="664.0" layoutY="367.0" maxWidth="-Infinity" minWidth="-Infinity" mnemonicParsing="false"
+        prefHeight="54.0" prefWidth="307.0" text="Retour" textAlignment="CENTER">
+    <font>
+        <Font size="25.0" />
+    </font>
+</Button>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="552.0" prefWidth="985.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.geiffel.gsb.controllers.gestionnaire.GestionnaireListeFichesController">
+    <Pane layoutX="96.0" layoutY="111.0" prefHeight="28.0" prefWidth="181.0" />
+    <ImageView fitHeight="174.0" fitWidth="233.0" layoutX="701.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../../../img/gsb.png" />
+    </ImageView>
+    <Button layoutX="664.0" layoutY="249.0" mnemonicParsing="false" onAction="#buttonOuvrirFicheClick" text="Ouvrir fiche sélectionnée" textAlignment="CENTER">
+        <font>
+            <Font size="25.0" />
+        </font>
+    </Button>
+    <fx:include source="previous-button.fxml" />
+    <TableView fx:id="tableListeFiches" layoutX="29.0" layoutY="65.0" prefHeight="400.0" prefWidth="575.0">
+        <columns>
+            <TableColumn fx:id="colIdFiche" prefWidth="75.0" text="Code" />
+            <TableColumn fx:id="colNomVisiteur" prefWidth="172.0" text="Visiteur" />
+            <TableColumn fx:id="colMoisFiche" editable="false" prefWidth="153.0" sortable="false" text="Mois" />
+            <TableColumn fx:id="colEtatFiche" prefWidth="174.0" text="Etat" />
+        </columns>
+    </TableView>
+</AnchorPane>

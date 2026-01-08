@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.*?>
+<Pane
+		maxHeight="-Infinity" maxWidth="-Infinity"
+		minHeight="-Infinity" minWidth="-Infinity"
+		prefHeight="480.0" prefWidth="699.0"
+		xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1"
+		fx:controller="fr.geiffel.gsb.controllers.authentification.AuthentificationController">
+
+	<Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="20.0" layoutY="184.0" prefHeight="21.0" prefWidth="119.0" text="Login :">
+		<font>
+			<Font size="15.0" />
+		</font>
+	</Label>
+	<TextField fx:id="loginTextField" layoutX="163.0" layoutY="184.0" prefHeight="25.0" prefWidth="186.0" />
+
+	<Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="20.0" layoutY="252.0" prefHeight="21.0" prefWidth="119.0" text="Mot de passe :">
+		<font>
+			<Font size="15.0" />
+		</font>
+	</Label>
+	<PasswordField fx:id="mdpPasswordField" layoutX="163.0" layoutY="252.0" prefHeight="25.0" prefWidth="186.0" />
+	<Button layoutX="163.0" layoutY="373.0" mnemonicParsing="false" onAction="#buttonValiderAuthentificationClick" prefHeight="54.0" prefWidth="146.0" text="Valider">
+		<font>
+			<Font size="25.0" />
+		</font>
+	</Button>
+	<Button layoutX="404.0" layoutY="373.0" mnemonicParsing="false" onAction="#quitterAuthentificationButton" prefHeight="54.0" prefWidth="146.0" text="Quitter">
+		<font>
+			<Font size="25.0" />
+		</font>
+	</Button>
+	<Label layoutX="196.0" layoutY="26.0" text="Identification">
+		<font>
+			<Font size="48.0" />
+		</font>
+	</Label>
+	<ImageView fitHeight="273.0" fitWidth="248.0" layoutX="376.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+		<Image url="@../../../img/gsb.png" />
+	</ImageView>
+	<Label id="messageConnexionLabel" fx:id="messageConnexionLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="338.0" prefHeight="27.0" prefWidth="669.0" textFill="RED">
+	 <font>
+		<Font size="18.0" />
+	 </font>
+	</Label>
+</Pane>

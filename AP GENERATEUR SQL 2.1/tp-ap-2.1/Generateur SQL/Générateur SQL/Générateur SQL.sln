@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Générateur SQL", "Générateur SQL\Générateur SQL.csproj", "{F679C8B3-77E6-4675-A084-E2ACCE8D2278}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F679C8B3-77E6-4675-A084-E2ACCE8D2278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F679C8B3-77E6-4675-A084-E2ACCE8D2278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F679C8B3-77E6-4675-A084-E2ACCE8D2278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F679C8B3-77E6-4675-A084-E2ACCE8D2278}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2739C1BB-5811-4300-ABD1-B5A9724DE906}
+	EndGlobalSection
+EndGlobal

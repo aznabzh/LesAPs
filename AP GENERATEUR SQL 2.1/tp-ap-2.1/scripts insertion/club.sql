@@ -1,0 +1,12 @@
+INSERT INTO `CLUB` (CodeC, NomC, AdresseC, VilleC, CPC, TelC) VALUES ('C1', 'SF Belleville', '', 'Verdun', '55100', '');
+INSERT INTO `CLUB` (CodeC, NomC, AdresseC, VilleC, CPC, TelC) VALUES ('C2', 'SCA Epinal', '', 'Epinal', '88000', '');
+INSERT INTO `CLUB` (CodeC, NomC, AdresseC, VilleC, CPC, TelC) VALUES ('C3', 'USL Mineenne', '', 'St Mihiel', '55300', '');
+INSERT INTO `CLUB` (CodeC, NomC, AdresseC, VilleC, CPC, TelC) VALUES ('C4', 'FC Toul', '', 'Toul', '54200', '');
+INSERT INTO `CLUB` (CodeC, NomC, AdresseC, VilleC, CPC, TelC) VALUES ('C5', 'US Etain', '', 'Etain', '55400', '');
+INSERT INTO `CLUB` (CodeC, NomC, AdresseC, VilleC, CPC, TelC) VALUES ('C6', 'ESP Lunéville', '', 'Lunéville', '54300', '');
+INSERT INTO `CLUB` (CodeC, NomC, AdresseC, VilleC, CPC, TelC) VALUES ('C7', 'FC Velaines', '', 'Velaines', '55500', '');
+INSERT INTO `CLUB` (CodeC, NomC, AdresseC, VilleC, CPC, TelC) VALUES ('C8', 'FCSTD', '', 'Saint Dié', '88100', '');
+INSERT INTO `CLUB` (CodeC, NomC, AdresseC, VilleC, CPC, TelC) VALUES ('C9', 'District Vosges', '', 'Epinal', '88000', '');
+INSERT INTO `CLUB` (CodeC, NomC, AdresseC, VilleC, CPC, TelC) VALUES ('C10', 'FC Val Dunois', '', 'Behonne', '55000', '');
+INSERT INTO `CLUB` (CodeC, NomC, AdresseC, VilleC, CPC, TelC) VALUES ('C11', 'FC Bruch Forbach', '', 'Forbach', '76000', '');
+INSERT INTO `CLUB` (CodeC, NomC, AdresseC, VilleC, CPC, TelC) VALUES ('C12', 'FC Commercy', '', 'Velaines', '55500', '');

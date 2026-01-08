@@ -1,0 +1,9 @@
+.vs
+bin/
+obj/
+build/
+*/bin/
+*/obj/
+jpo/.vs
+jpo/jpo/bin/
+jpo/jpo/obj/

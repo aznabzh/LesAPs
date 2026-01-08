@@ -1,0 +1,12 @@
+INSERT INTO `ARBITRE` (CodeA, NomA, PrenomA) VALUES ('A1', 'Lefort', 'Philippe');
+INSERT INTO `ARBITRE` (CodeA, NomA, PrenomA) VALUES ('A2', 'Trébeau', 'Sébastien');
+INSERT INTO `ARBITRE` (CodeA, NomA, PrenomA) VALUES ('A3', 'Ritterlan', 'Hervé');
+INSERT INTO `ARBITRE` (CodeA, NomA, PrenomA) VALUES ('A4', 'Rubens', 'Stéphane');
+INSERT INTO `ARBITRE` (CodeA, NomA, PrenomA) VALUES ('A5', 'Leoperon', 'Philippe');
+INSERT INTO `ARBITRE` (CodeA, NomA, PrenomA) VALUES ('A6', 'Durand', 'Jean Charles');
+INSERT INTO `ARBITRE` (CodeA, NomA, PrenomA) VALUES ('A7', 'Stéfanin', 'Loïc');
+INSERT INTO `ARBITRE` (CodeA, NomA, PrenomA) VALUES ('A8', 'Renom', 'Pierre');
+INSERT INTO `ARBITRE` (CodeA, NomA, PrenomA) VALUES ('A9', 'Fieffe', 'Eric');
+INSERT INTO `ARBITRE` (CodeA, NomA, PrenomA) VALUES ('A10', 'Lepont', 'Jacques');
+INSERT INTO `ARBITRE` (CodeA, NomA, PrenomA) VALUES ('A11', 'Pierrin', 'Marcel');
+INSERT INTO `ARBITRE` (CodeA, NomA, PrenomA) VALUES ('A12', 'Monin', 'Jean');

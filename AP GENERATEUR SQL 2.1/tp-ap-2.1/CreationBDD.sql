@@ -1,0 +1,71 @@
+CREATE TABLE ARBITRE (
+    CodeA VARCHAR(4) NOT NULL,
+    NomA VARCHAR(30),
+    PrenomA VARCHAR(30),
+    
+    PRIMARY KEY(CodeA));
+
+
+CREATE TABLE CLUB (
+    CodeC VARCHAR(4) NOT NULL,
+    NomC VARCHAR(30),
+    AdresseC VARCHAR(40),
+    VilleC VARCHAR(20),
+    CPC VARCHAR(5),
+    TelC VARCHAR(10),
+    
+    PRIMARY KEY(CodeC));
+
+
+CREATE TABLE CATEGORIE (
+    CodeCat VARCHAR(4) NOT NULL,
+    LibelleC VARCHAR(40),
+    
+    PRIMARY KEY(CodeCat));
+
+
+CREATE TABLE EQUIPE (
+    CodeE VARCHAR(4) NOT NULL,
+    CodeClub VARCHAR(4) NOT NULL,
+    CodeCateg VARCHAR(4) NOT NULL,
+    PRIMARY KEY(CodeE),
+    FOREIGN KEY(CodeClub) REFERENCES CLUB(CodeC),
+    FOREIGN KEY(CodeCateg) REFERENCES CATEGORIE(CodeCat));
+    
+   
+CREATE TABLE JOUEUR (
+    NumJ VARCHAR(4) NOT NULL,
+    NomJ VARCHAR(30),
+    PrenomJ VARCHAR(30),
+    DateNaissJ VARCHAR(10),
+    NumLicJ VARCHAR(4),
+    CodeEquipe VARCHAR(4) NOT NULL,
+    
+    PRIMARY KEY(NumJ),
+    FOREIGN KEY(CodeEquipe) REFERENCES EQUIPE(CodeE));
+
+
+CREATE TABLE `MATCH` (
+    CodeM VARCHAR(4) NOT NULL,
+    DateM VARCHAR(10),
+    LieuM VARCHAR(40),
+    ScoreEquipe1 INT,
+    ScoreEquipe2 INT,
+    CodeEquipe1 VARCHAR(4) NOT NULL,
+    CodeEquipe2 VARCHAR(4) NOT NULL,
+    
+    PRIMARY KEY(CodeM),
+    FOREIGN KEY(CodeEquipe1) REFERENCES EQUIPE(CodeE),
+	FOREIGN KEY(CodeEquipe2) REFERENCES EQUIPE(CodeE));
+    
+
+CREATE TABLE ARBITRER (
+    CodeMatch VARCHAR(4) NOT NULL,
+    CodeArbitre VARCHAR(4) NOT NULL,
+    RoleArbitre VARCHAR(30),
+    
+    PRIMARY KEY(CodeArbitre, CodeMatch),
+    FOREIGN KEY(CodeMatch) REFERENCES `MATCH`(CodeM),
+    FOREIGN KEY(CodeArbitre) REFERENCES ARBITRE(CodeA));
+
+
